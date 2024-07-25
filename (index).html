@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дизайн и ремонт</title>
+    <!-- Подключаем шрифт -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet">
+    <!-- Подключаем иконки -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Подключаем файл со стилями -->
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+
+    <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:title" content="Дизайн-студия «Катерина & Ко»"/>
+
+    <meta property="og:description" property="Дизайн и ремонт, любой стиль, бюджет и объем"/>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/Favicon/apple-touch-icon.png">
+
+    <link rel="manifest" href="/Favicon/site.webmanifest">
+    <link rel="mask-icon" href="/Favicon/favicon-16x16.png" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta property="og:image" content="https://spb.estetica-remont.ru/wp-content/uploads/2023/09/dizajn-interera-modern-1.jpeg">
+
+</head>
+
+<body>
+
+  <div class="background">
+    <div class="frame">
+      <div class="Iframe">
+        <div class="Iframe1">
+          <div class="Iframe11">
+            <div class="Photo">
+             <img src="Image front.png">
+            </div>
+          </div>
+          <div class="Iframe12">
+            <h1 class="Text1">«Катерина & Ко»</h1>
+            <h2 class="Text2">СТУДИЯ ДИЗАЙНА ИНТЕРЬЕРА</h2>
+            <h2 class="Text3">Дизайн, проектирование, ремонт, согласование</h2>
+          </div>
+          <div class="Iframe13">
+            <a href="/Contact.vcf" class="button">Сохранить контакты</a>
+          </div>
+        </div>
+        <div class="Iframe2">
+            <a class="Contact" href="tel:+7(903)782-73-07" target="_blank" > +7(903)782-73-07</a>
+            <a class="Contact1" href="mailto:linaok@yandex.ru" target="_blank">linaok@yandex.ru</a>
+            <a class="Contact2" href="https://katedesign.ru" target="_blank">https://katedesign.ru</a>
+            <a class="Contact3" href="https://api.whatsapp.com/send/?phone=79037827307" target="_blank">Екатерина</a>
+            <a class="Contact4" href="https://t.me/katedesignremont" target="_blank">@katedesignremont</a>
+
+
+
+            <div class="shareButton"><button id="shareButton" class="shareButton1">Поделиться</button>
+            <script>
+                const shareButton = document.getElementById('shareButton');
+
+                shareButton.addEventListener('click', function() {
+                    const url = window.location.href;
+                    const message = "\n С вами делится визиткой дизайн-студия «Катерина & Ко». ДИЗАЙН И РЕМОНТ.\n";
+                    const message1 = " Любой стиль, бюджет и объем. \n";
+                    const message2 = "\n";
+                    const textArea = document.createElement('textarea');
+                    textArea.value = message + message1 + message2 +  url;
+                    document.body.appendChild(textArea);
+                    textArea.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(textArea);
+
+
+                });
+            </script>
+            </div>
+
+
+
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
